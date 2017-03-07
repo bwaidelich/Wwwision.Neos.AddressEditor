@@ -1,0 +1,17 @@
+<div class="neos-inspector-adresse-editor">
+    {{#if view.showPreview}}
+        <p>
+            <small>{{view.preview}}</small>
+            {{#if view.hasCoordinates}}
+                <span style="color: #00a338">✔</span>
+            {{/if}}
+            <a {{action 'showPreview' target="view"}} href="#">edit</a>
+        </p>
+    {{else}}
+        {{view view.emberTextField classNames="neos-editor-postaladdress-streetaddress" placeholder="Street address" valueBinding="view.streetAddress"}}<br /><br />
+        {{view view.emberTextField classNames="neos-editor-postaladdress-postboxofficenumber" placeholder="Post box office number" valueBinding="view.postOfficeBoxNumber"}}<br /><br />
+        {{view view.emberTextField classNames="neos-editor-postaladdress-addresslocality" placeholder="Locality" valueBinding="view.addressLocality"}}<br /><br />
+        {{view view.emberTextField classNames="neos-editor-postaladdress-postalCode" placeholder="Postal code" valueBinding="view.postalCode"}}<br /><br />
+        {{view view.emberTextField classNames="neos-editor-postaladdress-addresscountry" placeholder="Country" valueBinding="view.addressCountry"}}
+    {{/if}}
+</div>

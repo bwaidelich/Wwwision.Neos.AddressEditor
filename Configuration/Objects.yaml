@@ -1,0 +1,4 @@
+Wwwision\Neos\AddressEditor\GeoCodingService:
+  arguments:
+    1:
+      setting: 'Wwwision.Neos.AddressEditor.googleMapsApiKey'

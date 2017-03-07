@@ -1,0 +1,14 @@
+Wwwision:
+  Neos:
+    AddressEditor:
+      googleMapsApiKey: ~
+Neos:
+  Neos:
+    userInterface:
+      requireJsPathMapping:
+        'Wwwision.Neos.AddressEditor/Editors': 'resource://Wwwision.Neos.AddressEditor/Public/Scripts/Inspector/Editors/'
+
+      inspector:
+        dataTypes:
+          'Wwwision\Neos\AddressEditor\PostalAddress':
+            editor: 'Wwwision.Neos.AddressEditor/Editors/PostalAddressEditor'
