@@ -40,8 +40,8 @@ To make use of the new Property Editor, just add a property of `PostalAddress` t
 
 Afterwards you should be able to see the new `PostalAddressEditor` in the Neos Backend:
 
-![Screenshot collapsed editor](/Screenshot_1.png "Screenshot collapsed editor")
-![Screenshot expanded editor](/Screenshot_2.png "Screenshot expanded editor")
+![Screenshot expanded editor](/Screenshot_1.png "Screenshot expanded editor")
+![Screenshot collapsed editor](/Screenshot_2.png "Screenshot collapsed editor")
 
 *Note:* The green checkmark indicates that the geocoding for this address has been successful
 
