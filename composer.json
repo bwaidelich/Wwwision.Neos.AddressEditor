@@ -2,6 +2,7 @@
     "description": "Simple Neos extension adding a custom property editor for addresses, including GeoCoding",
     "type": "neos-package",
     "name": "wwwision/neos-addresseditor",
+    "license": "MIT",
     "require": {
         "neos/neos": "^3.0",
         "willdurand/geocoder": "^3.3",
