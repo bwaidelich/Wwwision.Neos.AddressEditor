@@ -5,7 +5,7 @@
             {{#if view.hasCoordinates}}
                 <span style="color: #00a338">✔</span>
             {{/if}}
-            <a {{action 'showPreview' target="view"}} href="#">edit</a>
+            <a {{action 'showPreview' bubbles=false target="view"}} href="#">edit</a>
         </p>
     {{else}}
         {{view view.emberTextField classNames="neos-editor-postaladdress-streetaddress" placeholder="Street address" valueBinding="view.streetAddress"}}<br /><br />
